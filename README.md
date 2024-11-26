@@ -74,3 +74,48 @@ One of the most significant advantages of requirement analysis is its ability to
 
 3. Aligns Development with Stakeholder Expectations
 Requirement analysis ensures that all project stakeholders have a shared understanding of the software’s intended functionality and behavior. This alignment is crucial for avoiding miscommunication and ensuring that the final product meets the needs of both the business and end-users. Clear, documented requirements serve as a reference throughout the SDLC, guiding design, development, testing, and deployment. This alignment helps to manage stakeholder expectations effectively, ensuring that the software delivers what was promised and provides the expected value.
+
+# Key Activities in Requirement Analysis
+Here’s a detailed breakdown of the key activities involved in requirement analysis
+
+1. Requirement Gathering
+Objective: To collect detailed information about the software’s objectives, features, and constraints from stakeholders, ensuring that all necessary requirements are captured.
+Techniques:
+Interviews: One-on-one sessions with key stakeholders to understand their specific needs and expectations.
+Surveys and Questionnaires: Distributing a set of questions to a broad audience of users or stakeholders to gather quantitative and qualitative data.
+Workshops: Interactive sessions where stakeholders collaborate to identify requirements and potential solutions.
+Document Review: Analyzing existing documents (e.g., legacy system specifications, business process documents) for relevant requirements.
+Outcome: A comprehensive list of high-level requirements, initial project scope, and stakeholder expectations.
+2. Requirement Elicitation
+Objective: To discover and articulate the underlying needs and expectations of stakeholders, ensuring that requirements are fully understood and agreed upon.
+Techniques:
+Brainstorming Sessions: Facilitating group discussions to generate ideas and uncover potential requirements.
+Use Cases and User Stories: Identifying typical user interactions with the system to uncover functional requirements.
+Observation: Observing users in their natural environment to understand their workflows and challenges.
+Prototyping: Creating visual or functional prototypes to elicit feedback on potential solutions and refine requirements.
+Outcome: A more refined, specific set of requirements that reflect real user needs and system functionalities.
+3. Requirement Documentation
+Objective: To formally document all gathered and elicited requirements in a clear, structured, and standardized format, ensuring that everyone involved in the project is on the same page.
+Techniques:
+Software Requirements Specification (SRS): A detailed document outlining both functional and non-functional requirements in a standardized format.
+Use Cases and User Stories: Descriptions of how users will interact with the system, written from the user’s perspective.
+Product Requirements Document (PRD): A high-level document that outlines the project goals, scope, and specific requirements.
+Requirements Traceability Matrix (RTM): A document that links each requirement to the business objective or project goal it supports.
+Outcome: A comprehensive and well-structured requirements document that serves as the reference for design, development, and testing.
+4. Requirement Analysis and Modeling
+Objective: To analyze the gathered requirements, validate their consistency, feasibility, and completeness, and create models to represent the system’s behavior and structure.
+Techniques:
+Data Flow Diagrams (DFDs): Graphically depicting how data flows through the system, showing processes and data stores.
+Entity-Relationship Diagrams (ERD): Modeling the relationships between data entities within the system.
+State Diagrams: Illustrating how the system’s states change based on various events or actions.
+Use Case Diagrams: Visual representations of interactions between users and the system, highlighting the system’s functionality from a user perspective.
+Outcome: Clear, visual models that provide a detailed understanding of how the system will function, helping to ensure that all requirements are feasible and aligned with user needs.
+5. Requirement Validation
+Objective: To ensure that the documented requirements are accurate, complete, and align with stakeholder expectations, and that they are ready for the design and development phases.
+Techniques:
+Requirement Reviews: Formal reviews with stakeholders to ensure that the requirements are well-defined, clear, and meet the business goals.
+Prototyping: Creating prototypes to demonstrate system functionality, allowing stakeholders to verify the requirements interactively.
+Walkthroughs: Going through the requirements step-by-step with the stakeholders to ensure completeness and clarity.
+Test Cases and Acceptance Criteria: Defining test cases and acceptance criteria that can later be used to validate the final product against the requirements.
+Outcome: A validated, finalized set of requirements that all stakeholders have agreed upon, ensuring the project moves forward with clear objectives and expectations.
+
