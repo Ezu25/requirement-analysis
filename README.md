@@ -119,3 +119,63 @@ Walkthroughs: Going through the requirements step-by-step with the stakeholders 
 Test Cases and Acceptance Criteria: Defining test cases and acceptance criteria that can later be used to validate the final product against the requirements.
 Outcome: A validated, finalized set of requirements that all stakeholders have agreed upon, ensuring the project moves forward with clear objectives and expectations.
 
+# Types of Requirements
+In a professional software development context, the distinction between Functional Requirements and Non-Functional Requirements is essential for creating robust and scalable systems. For the Booking Management Project (such as an Airbnb clone), these requirements must be precise, ensuring that the application performs as expected both in terms of features and system behavior.
+
+1. Functional Requirements for the Booking Management System
+Definition:
+Functional requirements define the specific functionalities and business logic of the system. They describe what actions the system must perform to meet user and business expectations. These requirements are the core features that users interact with directly and are critical to achieving the project’s primary goals.
+
+Examples:
+
+User Authentication & Account Management:
+
+The system should provide user registration through both email and social media accounts (e.g., Google, Facebook).
+Registered users must be able to authenticate via secure login, using credentials like username and password, with the option to reset passwords if necessary.
+Search and Filter Functionality:
+
+Users should be able to search for properties using dynamic filters, such as location, price range, type of accommodation, and availability.
+The system must offer a refined search with additional filters for property ratings, amenities (Wi-Fi, parking, etc.), and proximity to key landmarks.
+Booking and Reservation Management:
+
+Users should have the ability to select dates, view available properties, and make a booking request.
+Upon successful booking, the system should send an automatic confirmation email with the booking details (e.g., property, dates, and total cost).
+Payment Integration:
+
+The system should support multiple payment gateways (e.g., Stripe, PayPal, or credit cards), ensuring secure processing for users.
+A payment receipt must be generated upon successful transaction completion, with the ability to store and retrieve payment history.
+Ratings and Review System:
+
+After a stay, users should be able to rate properties and provide written reviews, helping future users make informed decisions.
+Reviews must be displayed alongside property details and aggregated to show the average rating score.
+2. Non-Functional Requirements for the Booking Management System
+Definition:
+Non-functional requirements describe how well the system must perform in terms of quality attributes such as performance, scalability, security, and reliability. These requirements ensure that the system delivers a seamless user experience and meets operational needs.
+
+Examples:
+
+Performance and Response Time:
+
+The system should be able to handle a load of up to 10,000 concurrent users without a noticeable degradation in response time.
+Web pages must load within 3 seconds under normal conditions, ensuring a fast and responsive user experience even during peak traffic.
+Scalability and Load Handling:
+
+The platform must be scalable to accommodate a growing user base, supporting the integration of additional features like multi-region bookings or third-party integrations.
+Database scaling should be handled automatically, allowing horizontal scaling to meet increasing demand without requiring downtime.
+Security Standards:
+
+All sensitive data, including user credentials and payment details, must be encrypted using SSL/TLS encryption protocols.
+Passwords should be stored securely using bcrypt or similar hashing algorithms, and two-factor authentication (2FA) should be enabled for all user accounts.
+Availability and Uptime:
+
+The system must ensure 99.9% availability, equating to no more than 8 hours of downtime per year, ensuring that users can access the platform for bookings and search at any time.
+Redundant backup systems should be in place to prevent data loss in case of server failures, with disaster recovery protocols established.
+Usability and Accessibility:
+
+The application should have an intuitive and user-friendly interface, guiding users seamlessly through the process of finding properties, booking, and making payments.
+The system should be responsive, ensuring a consistent experience across devices, whether on desktops, tablets, or smartphones.
+The platform must comply with accessibility standards such as WCAG to ensure inclusivity for users with disabilities.
+Compliance and Legal Constraints:
+
+The system must adhere to data protection regulations (such as GDPR for European users), ensuring that users' personal and payment information is managed and stored securely.
+Terms of service and privacy policy must be easily accessible to users and integrated into the signup process.
